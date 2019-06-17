@@ -297,9 +297,6 @@
              return false;
          });
 
-
-    </script>
-    <script>
         $(document).ready(function(){
             $('#DivisionName').change(function(){
                 var DivisionID=$(this).val();
@@ -335,9 +332,7 @@
                 $("#UpazilaId").html('');
             }
         });
-    </script>
-
-    <script>
+   
         $(document).ready(function () {
             $('#training').hide();
             $('#yes').click(function () {
